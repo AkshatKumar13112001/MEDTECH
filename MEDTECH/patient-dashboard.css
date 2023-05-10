@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("logo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: 300px 200px;
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .logo {
+    margin: 10px 20px;
+  }
+  
+  .logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0088cc;
+  }
+  
+  nav {
+    margin: 10px 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    font-size: 16px;
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  nav ul li a:hover {
+    color: #0088cc;
+  }
+  
+  .dashboard {
+    margin-top: 80px;
+    text-align: center;
+  }
+  
+  .dashboard h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0088cc;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard p {
+    font-size: 18px;
+    color: #000;
+    margin-bottom: 40px;
+  }
+  
+  footer {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #999;
+  }
+  

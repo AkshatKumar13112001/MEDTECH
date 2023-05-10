@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url("doctor-patient.jpg");
+    background-repeat: no-repeat;
+    background-position: -10px 50px;
+    background-size: cover;
+    font-family: sans-serif;
+  }
+  a.button {
+    border: 1px solid #808080;
+    background: #a0a0a0;
+    display: inline-block;
+    padding: 5px;
+}
+  header {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .logo {
+    margin: 10px 20px;
+  }
+  
+  .logo h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0088cc;
+  }
+  
+  .container {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0088cc;
+    margin-bottom: 40px;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  button {
+    background-color: #0088cc;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #005580;
+  }
+  
+  footer {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    color: #999;
+  }
+  
